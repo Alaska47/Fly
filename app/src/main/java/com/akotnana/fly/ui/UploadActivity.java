@@ -21,7 +21,6 @@ import android.content.IntentSender.SendIntentException;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.akotnana.fly.R;
 import com.akotnana.fly.drive.ApiClientAsyncTask;
 import com.akotnana.fly.drive.BaseDriveActivity;
 import com.google.android.gms.common.api.ResultCallback;
@@ -50,7 +49,6 @@ public class UploadActivity extends BaseDriveActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_upload);
     }
 
     @Override
